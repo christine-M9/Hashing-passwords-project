@@ -13,11 +13,11 @@ const Signin = () => {
   const validateForm = () => {
     let isValid = true;
 
-    // Reset errors
+    // reset errors
     setEmailError("");
     setPasswordError("");
 
-    // Validate email
+    // validating email
     if (!email) {
       setEmailError("Email is required");
       isValid = false;
@@ -26,7 +26,7 @@ const Signin = () => {
       isValid = false;
     }
 
-    // Validate password
+    // vvalidating password
     if (!password) {
       setPasswordError("Password is required");
       isValid = false;
