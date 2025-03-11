@@ -31,7 +31,7 @@ function App() {
 function Home() {
   return (
     <div className="home">
-      <h2>Welcome to the Authentication System</h2>
+      <h2>Welcome to the Authentication System by C.K JUMA.</h2>
       <p>Please sign up or sign in to continue</p>
       <div className="home-links">
         <Link to="/signup" className="btn">
